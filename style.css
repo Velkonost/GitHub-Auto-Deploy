@@ -1,0 +1,302 @@
+@font-face {
+    font-family: "RobotoCondensedRegular";
+    src: url("./fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot");
+    src: url("./fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix")format("embedded-opentype"), url("./fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff") format("woff"), url("./fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: "RobotoCondensedLight";
+    src: url("./fonts/RobotoCondensedLight/RobotoCondensedLight.eot");
+    src: url("./fonts/RobotoCondensedLight/RobotoCondensedLight.eot?#iefix")format("embedded-opentype"), url("./fonts/RobotoCondensedLight/RobotoCondensedLight.woff") format("woff"), url("./fonts/RobotoCondensedLight/RobotoCondensedLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: "RobotoCondensedBold";
+    src: url("./fonts/RobotoCondensedBold/RobotoCondensedBold.eot");
+    src: url("./fonts/RobotoCondensedBold/RobotoCondensedBold.eot?#iefix")format("embedded-opentype"), url("./fonts/RobotoCondensedBold/RobotoCondensedBold.woff") format("woff"), url("./fonts/RobotoCondensedBold/RobotoCondensedBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("./fonts/RobotoRegular/RobotoRegular.eot");
+    src: url("./fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"), url("./fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("./fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: "RobotoLight";
+    src: url("./fonts/RobotoLight/RobotoLight.eot");
+    src: url("./fonts/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"), url("./fonts/RobotoLight/RobotoLight.woff") format("woff"), url("./fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: "RobotoMedium";
+    src: url("./fonts/RobotoMedium/RobotoMedium.eot");
+    src: url("./fonts/RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"), url("./fonts/RobotoMedium/RobotoMedium.woff") format("woff"), url("./fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url("./fonts/RobotoBold/RobotoBold.eot");
+    src: url("./fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"), url("./fonts/RobotoBold/RobotoBold.woff") format("woff"), url("./fonts/RobotoBold/RobotoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal
+}
+
+body {
+    height: 100%;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: RobotoRegular;
+    color: #000;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: inherit
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0px;
+    background: #fff;
+}
+
+img.alignleft {
+    float: left;
+    margin-right: 15px
+}
+
+i {
+    vertical-align: middle
+}
+
+p {
+    text-overflow: ellipsis;
+    margin: 0 0 5px
+}
+
+img.alignright {
+    float: right;
+    margin-left: 15px
+}
+
+.metrica-wrap {
+    display: block;
+    position: absolute;
+    left: -999999px
+}
+
+.screen-reader-text {
+    position: absolute;
+    left: -1000em
+}
+
+.clear {
+    clear: both;
+    width: 100%
+}
+
+a:hover,
+a:focus {
+    text-decoration: none
+}
+
+input,
+a,
+button,
+a:focus,
+button:focus,
+textarea {
+    outline: none
+}
+
+a img {
+    border: none
+}
+
+.clearfix:after {
+    width: 0;
+    height: 0;
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.thanks-page-header {
+    padding: 15px 20px;
+    background: #000;
+}
+
+.thanks-page-header-left a {
+    color: inherit;
+}
+
+.thanks-page-header-left {
+    float: left;
+    font-size: 18pt;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.thanks-page-header-right {
+    float: right;
+    font-size: 20pt;
+    color: #fff;
+    text-align: right;
+}
+
+.thanks-page-header-right-top {
+    font-size: 18pt;
+    color: #fff;
+}
+
+.logo-thanks {
+    margin: 0 45px 0 0;
+    /* display: block; */
+    display: inline-block;
+}
+
+.thanks-page-text-ob {
+    width: 672px;
+    max-width: 100%;
+    margin: 23px auto 20px auto;
+    position: relative;
+}
+
+.thanks-page-text-ob:before,
+.thanks-page-text-ob:after {
+    width: 62px;
+    height: 186px;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -18px;
+    z-index: 1;
+}
+
+.thanks-page-text-ob:before {
+    /*background: url(../images/thanks-page-text-before.png) no-repeat;*/
+    left: -31px;
+}
+
+.thanks-page-text-ob:after {
+    /*background: url(../images/thanks-page-text-after.png) no-repeat;*/
+    right: -31px;
+}
+
+.thanks-page-text {
+    /*background: #0a559d;*/
+    padding: 18px 20px 30px 20px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    color: black;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.thanks-page-text-head {
+    margin: 0 0 25px;
+    font-size: 25px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+.thanks-page-text-content {
+    font-size: 20px;
+    line-height: 23pt;
+    text-transform: uppercase;
+}
+
+.thanks-page-social-ob {
+    margin: 0 0 40px;
+    font-size: 0;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.thanks-page-social-head {
+    margin: 0 0 40px;
+    font-size: 20px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    text-transform: uppercase;
+    color: #232323;
+}
+
+.thanks-page-social-ob .item {
+    margin: 0 22px;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.thanks-page-social-ob .item-instagram {
+    width: 261px;
+}
+
+@media (max-width: 880px) {
+    a.logo-thanks {
+        display: block;
+        clear: both;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 760px) {
+    .thanks-page-social-ob .item.item-vk {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 660px) {
+    .thanks-page-header-left,
+    .thanks-page-header-right {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .thanks-page-text-ob:before,
+    .thanks-page-text-ob:after {
+        display: none;
+    }
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
