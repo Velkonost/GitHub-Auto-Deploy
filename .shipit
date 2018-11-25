@@ -1,0 +1,6 @@
+host='myhost'
+path='www/testknotum.ru'
+
+[deploy]
+git checkout master
+git pull
